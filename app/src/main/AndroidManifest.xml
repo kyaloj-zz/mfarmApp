@@ -28,6 +28,11 @@
             android:name=".NavigationDrawer"
             android:label="@string/title_activity_navigation_drawer" >
         </activity>
+
+        <activity
+            android:name=".Trends"
+            android:label="@string/title_activity_trends" >
+        </activity>
     </application>
 
 </manifest>
