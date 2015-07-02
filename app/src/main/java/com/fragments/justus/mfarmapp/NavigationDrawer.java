@@ -30,15 +30,15 @@ public class NavigationDrawer extends MaterialNavigationDrawer {
         MaterialAccount account = new MaterialAccount(this.getResources(),"NeoKree","neokree@gmail.com", R.drawable.photo, R.drawable.bamboo);
         this.addAccount(account);
 
-        MaterialAccount account2 = new MaterialAccount(this.getResources(),"Hatsune Miky","hatsune.miku@example.com",R.drawable.photo2,R.drawable.mat2);
-        this.addAccount(account2);
-
-        MaterialAccount account3 = new MaterialAccount(this.getResources(),"Example","example@example.com",R.drawable.photo,R.drawable.mat3);
-        this.addAccount(account3);
 
         // create sections
-        this.addSection(newSection("Section 1", R.drawable.ic_mic_white_24dp, new FragmentIndex()));
-        this.addSection(newSection("Section 2", R.drawable.ic_hotel_grey600_24dp, new FragmentIndex()));
+        this.addSection(newSection("Daily Prices", R.drawable.ic_mic_white_24dp, new FragmentIndex()));
+        this.addSection(newSection("Trends", R.drawable.ic_hotel_grey600_24dp, new FragmentIndex()));
+        this.addSection(newSection("Blog", R.drawable.ic_mic_white_24dp, new FragmentIndex()));
+        this.addSection(newSection("Marketplace", R.drawable.ic_hotel_grey600_24dp, new FragmentIndex()));
+        this.addSection(newSection("About Us", R.drawable.ic_mic_white_24dp, new FragmentIndex()));
+        this.addSection(newSection("Logout", R.drawable.ic_hotel_grey600_24dp, new FragmentIndex()));
+
 
 
         // create bottom section
