@@ -3,15 +3,14 @@
     android:layout_height="match_parent"
     tools:context="com.fragments.justus.mfarmapp.Trends">
 
-    <include layout="@layout/apptoolbar"
-        android:id="@+id/include" />
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="280dp"
         android:id="@+id/imageView3"
         android:src="@drawable/tomatotrends"
-        android:layout_below="@+id/include"
+
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
