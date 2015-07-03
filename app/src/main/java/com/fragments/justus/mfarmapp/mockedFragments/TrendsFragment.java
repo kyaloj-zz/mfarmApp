@@ -9,15 +9,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.fragments.justus.mfarmapp.R;
+
 /**
  * Created by justus on 7/3/15.
  */
 public class TrendsFragment extends Fragment{
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        TextView text = new TextView(this.getActivity());
-        text.setText("Trends");
-        text.setGravity(Gravity.CENTER);
-        return text;
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        View rootView = inflater.inflate(R.layout.activity_trends, container, false);
+
+        return rootView;
     }
 }
