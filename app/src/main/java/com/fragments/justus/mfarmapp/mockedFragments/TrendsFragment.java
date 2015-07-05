@@ -21,6 +21,7 @@ public class TrendsFragment extends Fragment{
         // TODO Auto-generated method stub
         View rootView = inflater.inflate(R.layout.activity_trends, container, false);
 
+
         return rootView;
     }
 }
