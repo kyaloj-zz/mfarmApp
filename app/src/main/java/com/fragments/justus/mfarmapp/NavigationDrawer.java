@@ -46,6 +46,6 @@ public class NavigationDrawer extends MaterialNavigationDrawer {
 
 
         // create bottom section
-        this.addBottomSection(newSection("Bottom Section", R.drawable.ic_settings_black_24dp, new Intent(this, Settings.class)));
+        this.addBottomSection(newSection("Settings", R.drawable.ic_settings_black_24dp, new Intent(this, Settings.class)));
     }
 }
